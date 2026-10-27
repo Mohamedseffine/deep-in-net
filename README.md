@@ -73,7 +73,9 @@ This repository documents a progressive series of eight Cisco Packet Tracer exer
 | PC5 (example) | 192.168.1.7/24 |
 | PC0–PC4 | assigned via DHCP |
 
-**Concept:** Focuses on application-layer services. The DHCP server automatically leases IP addresses to client PCs; the DNS server resolves domain names to IPs; the HTTP/HTTPS and FTP servers provide web and file access. This simulates a small business/school network.
+**Concept:** Focuses on application-layer services. The DHCP server automatically leases IP addresses to client PCs; the DNS server resolves domain names to IPs; SSL handshake, the HTTP/HTTPS and FTP servers provide web and file access. This simulates a small business/school network.
+
+***SSL Handshake:*** starts after the TCP handshake ends, the client sends a client hello message to the server containing the ssl version used and the cyber suite(cyber suite is the encryption algorithms that the client does accept) after that the server choses a TLS version and a cyber suite and sends a server hello containing the chosen cyber suite and tls version then it sends a certificate that includes the public key of the server and then he sends hello done hence the next step starts the client choses an encryption key and then send it encrypted to the server by it's public key and the data exchange starts.
 
 ---
 
